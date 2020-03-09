@@ -17,7 +17,7 @@ p {
 	border-bottom: 5px solid #bca061;
 }
 .two {
-	margin-left: 30px;
+	margin-left: 10px;
 	text-align: center;
 	margin-top: 10px;
 }
@@ -60,16 +60,16 @@ p img {
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
 	.one {
 		display: flex;
 		align-items: center;
 		line-height: -2px;
 		border-right: 6px solid #bca061;
-		padding-right: 140px;
+		padding-right: 3px;
 	}
 	.two img {
 		margin-right: 20px;
@@ -81,7 +81,8 @@ p img {
 	}
 	.socialmed {
 		border-bottom: none;
-		margin-left: 111px;
+		margin-left: 30px;
+		padding-right: 50px;
 		margin-top: 60px;
 	}
 	.two {
@@ -93,5 +94,14 @@ p img {
 	p {
 		color: #bca061;
 		font-size: 17px;
+	}
+}
+
+@media only screen and (min-width: 770px) {
+	.socialmed {
+		border-bottom: none;
+		margin-left: 30px;
+		padding-right: 50px;
+		margin-top: 60px;
 	}
 }
