@@ -1,0 +1,370 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*page-1 partie-1 header*/
+
+.header {
+	background: url(../../img/imghead-1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: inherit;
+	height: 230px;
+	position: relative;
+}
+
+#green-opacité {
+	background: rgba(2, 87, 6, 0.3);
+	width: inherit;
+	height: 100%;
+}
+
+.menu-div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0px;
+	z-index: 1;
+}
+
+#green-opacité h1 {
+	font-size: 23px;
+	font-family: 'Courgette';
+	color: #f7f4ee;
+	position: absolute;
+	margin: 0;
+	padding-left: 4%;
+	padding-top: 38%;
+	text-shadow: 2px 4px 6px black;
+}
+
+#Bio {
+	width: 124px;
+	float: right;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+	color: #f7f4ee;
+	width: 30px;
+	padding-left: 6px;
+	display: block;
+	cursor: pointer;
+	width: 30px;
+}
+
+.menu {
+	display: none;
+	text-align: center;
+	margin: 0;
+	background: rgba(188, 160, 97, 0.4);
+	list-style-type: none;
+	padding: 0;
+}
+
+.menu a {
+	display: block;
+	border-bottom: 1px solid #045304;
+	text-decoration: none;
+	font-size: 13px;
+	color: #f7f4ee;
+	padding: 10px;
+}
+
+.menu li a:hover {
+	color: #045304;
+}
+
+#toggle:checked + .menu {
+	display: block;
+}
+
+/*page-1 partie-2 Notre-produits*/
+
+.Notre-produits {
+	background: rgba(188, 160, 97, 0.2);
+	padding: 1% 0%;
+	height: 650px;
+}
+
+.Notre-produits h1 {
+	color: #bca061;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 1%;
+	font-family: 'Courgette';
+	font-size: 30px;
+}
+
+.Notre-produits h4 {
+	color: #045304;
+	font-family: 'Tenor Sans';
+	margin: 0;
+	font-size: 13px;
+}
+
+.grid-produits div {
+	text-align: center;
+	position: relative;
+}
+.grid-produits img {
+	border-radius: 50%;
+	border: 1px solid #045304;
+	width: 75px;
+	height: 75px;
+}
+.grid-produits {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, minmax(119px, auto));
+	grid-template-areas: ". frais1 frais1 ." ". . Beurre1 Beurre1" "logo11 logo11 . fromage1"
+		". .laitiaires1 laitiaires1" ". yogur1 yogur1 .";
+}
+
+.frais {
+	grid-area: frais1;
+	align-self: end;
+	justify-self: center;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.frais:hover {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.Beurre {
+	grid-area: Beurre1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.Beurre:hover {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.logo11 .lg {
+	border-radius: initial;
+	border: none;
+	width: 120px;
+	height: 120px;
+}
+
+.logo11 {
+	grid-area: logo11;
+}
+
+.fromage {
+	grid-area: fromage1;
+	justify-self: left;
+	align-self: center;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.fromage:hover {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.laitiaires {
+	grid-area: laitiaires1;
+	align-self: end;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.laitiaires:hover {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.yogurt {
+	grid-area: yogur1;
+	justify-self: center;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.yogurt:hover {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+@media only screen and (max-width: 435px) {
+	.input1 {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 436px) and (max-width: 768px) {
+	.input1 {
+		display: none;
+	}
+	#green-opacité {
+		height: 100%;
+	}
+	.header {
+		height: 334px;
+	}
+	#green-opacité h1 {
+		font-size: 35px;
+		padding-left: 3%;
+		padding-top: 27%;
+	}
+
+	#Bio {
+		width: 211px;
+		left: 546px;
+		top: 11px;
+	}
+	.Notre-produits {
+		height: 990px;
+	}
+
+	.Notre-produits h1 {
+		font-size: 60px;
+	}
+	.grid-produits img {
+		width: 125px;
+		height: 125px;
+	}
+	.grid-produits {
+		grid-template-rows: repeat(5, minmax(182px, auto));
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	label {
+		display: none;
+	}
+	.menu-div {
+		width: 100%;
+	}
+	.input1 {
+		display: none;
+	}
+	.header {
+		height: 488px;
+	}
+
+	#Bio {
+		width: 321px;
+		top: 23px;
+	}
+
+	#green-opacité h1 {
+		font-size: 50px;
+		padding-left: 4%;
+		padding-top: 12%;
+		width: 55%;
+	}
+
+	.menu {
+		display: contents;
+		background: rgba(188, 160, 97, 0.6);
+		height: 45px;
+		width: 100%;
+		display: flex;
+		list-style-type: none;
+		justify-content: space-around;
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		bottom: 0;
+	}
+
+	.list-menu {
+		border-left: 1px solid #f7f4ee;
+		width: 33.33%;
+		margin: auto;
+		text-align: center;
+	}
+
+	.menu li a:hover {
+		color: #045304;
+	}
+
+	.menu li a {
+		color: #f7f4ee;
+		text-decoration: none;
+		font-family: 'Tenor Sans';
+		font-size: 21.5px;
+		line-height: 45px;
+		border-bottom: none;
+		padding: 0;
+	}
+
+	.menu li:first-child {
+		border-left: none;
+	}
+
+	.Notre-produits {
+		height: 600px;
+	}
+
+	.Notre-produits h1 {
+		font-size: 50px;
+		margin-top: 0px;
+		padding: 1%;
+	}
+	.grid-produits img {
+		width: 100px;
+		height: 100px;
+	}
+	.Notre-produits h4 {
+		font-size: 16px;
+	}
+
+	.grid-produits {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat(3, minmax(153px, auto));
+		grid-template-areas: ". frais1 frais1 frais1 ." ". yogur1 logo11 Beurre1 ." ". laitiaires1 . fromage1 .";
+	}
+
+	.frais {
+		grid-area: frais1;
+	}
+
+	.Beurre {
+		grid-area: Beurre1;
+	}
+
+	.logo11 {
+		border-radius: initial;
+		border: none;
+		width: 91px;
+		height: 97px;
+		grid-area: logo11;
+		justify-self: center;
+		align-self: end;
+	}
+
+	.fromage {
+		grid-area: fromage1;
+		justify-self: left;
+	}
+
+	.laitiaires {
+		grid-area: laitiaires1;
+		justify-self: right;
+	}
+
+	.yogurt {
+		grid-area: yogur1;
+	}
+}

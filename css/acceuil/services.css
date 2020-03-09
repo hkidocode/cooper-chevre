@@ -1,0 +1,219 @@
+@charset "UTF-8";
+@media (min-width: 769px) {
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.la-qualit {
+		background-color: #f7f4ee;
+	}
+	.qualité {
+		color: #bca061;
+		text-align: center;
+		font-size: 50px;
+		margin-top: 0px;
+		padding-top: 30px;
+		font-family: "Courgette";
+	}
+	.produits {
+		color: #045304;
+		text-align: center;
+		font-size: 25px;
+		border-left: #bca061 5px solid;
+		border-right: #bca061 5px solid;
+		margin-right: 20px;
+		margin-left: 20px;
+		font-family: 'Tenor Sans';
+	}
+	.list {
+		list-style: none;
+		margin-top: 50px;
+		color: #045304;
+		margin-bottom: 0px;
+		padding-left: 170px;
+		padding-bottom: 40px;
+		font-family: 'Tenor Sans';
+	}
+	.list-qualité {
+		font-size: 20px;
+		background-image: url(../../img/icons-checked.png);
+		background-repeat: no-repeat;
+		background-size: 4%;
+		background-position: left;
+		padding-left: 70px;
+		padding-bottom: 20px;
+		padding-top: 15px;
+	}
+	.services {
+		background-image: url(../../img/PA7CR11.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 800px;
+	}
+	.services .serv1 {
+		height: 190px;
+		background-color: #0453045e;
+		padding-bottom: 40px;
+	}
+	.services .serv2 {
+		color: white;
+		font-weight: bold;
+	}
+	.services h1 {
+		text-align: center;
+		margin-top: 0px;
+		padding-top: 30px;
+		font-size: 50px;
+		font-family: "Courgette";
+	}
+	.services ul {
+		list-style: none;
+		padding-left: 150px;
+		font-size: 25px;
+		font-family: 'Tenor Sans';
+	}
+	.services ul li{
+		margin-bottom: 15px;
+	}
+}
+
+@media (min-width: 436px) and (max-width: 768px) {
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+	.la-qualit {
+		background-color: #f7f4ee;
+	}
+	.qualité {
+		color: #bca061;
+		text-align: center;
+		font-size: 40px;
+		margin-top: 0px;
+		padding-top: 10px;
+		font-family: "Courgette";
+	}
+	.produits {
+		color: #045304;
+		text-align: center;
+		font-size: 22px;
+		border-left: #bca061 5px solid;
+		border-right: #bca061 5px solid;
+		margin-right: 30px;
+		margin-left: 30px;
+		font-family: 'Tenor Sans';
+	}
+	.list {
+		list-style: none;
+		margin-top: 50px;
+		color: #045304;
+		margin-bottom: 0px;
+		padding-left: 120px;
+		font-family: 'Tenor Sans';
+	}
+	.list-qualité {
+		font-size: 18px;
+		background-image: url(../../img/icons-checked.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 5%;
+		padding-left: 50px;
+		padding-bottom: 18px;
+		padding-top: 10px;
+	}
+	.services {
+		background-image: url(../../img/PA7CR11.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 500px;
+	}
+	.services .serv1 {
+		background-color: #0453045e;
+		height: 135px;
+	}
+	.services .serv2 {
+		color: white;
+		font-weight: bold;
+	}
+	.services h1 {
+		font-size: 40px;
+		font-family: "Courgette";
+		text-align: center;
+		margin-top: 0px;
+	}
+	.services ul {
+		list-style: none;
+		padding-left: 100px;
+		font-size: 18px;
+		font-family: 'Tenor Sans';
+	}
+}
+
+@media screen and (max-width: 435px) {
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+	.la-qualit {
+		background-color: #f7f4ee;
+	}
+	.qualité {
+		color: #bca061;
+		text-align: center;
+		font-size: 30px;
+		margin-top: 0px;
+		padding-top: 10px;
+		font-family: "Courgette";
+	}
+	.produits {
+		color: #045304;
+		text-align: center;
+		border-left: #bca061 5px solid;
+		border-right: #bca061 5px solid;
+		margin-right: 20px;
+		margin-left: 20px;
+		font-family: 'Tenor Sans';
+	}
+	.list {
+		list-style: none;
+		margin-top: 50px;
+		color: #045304;
+		margin-bottom: 0px;
+		font-family: 'Tenor Sans';
+	}
+	.list-qualité {
+		font-size: 15px;
+		background-image: url(../../img/icons-checked.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 7%;
+		padding-left: 50px;
+		padding-bottom: 12px;
+		padding-top: 10px;
+	}
+	.services {
+		background-image: url(../../img/PA7CR11.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 270px;
+	}
+	.services .serv1 {
+		background-color: #0453045e;
+	}
+	.services .serv2 {
+		color: white;
+		font-weight: bold;
+		height: 110px;
+	}
+	.services h1 {
+		font-family: "Courgette";
+		margin-top: 0px;
+		text-align: center;
+	}
+	.services ul {
+		list-style: none;
+		font-family: 'Tenor Sans';
+	}
+}
+/* # sourceMappingURL=style.css.map */

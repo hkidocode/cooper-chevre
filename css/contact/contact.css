@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.contact img {
+	width: 90px;
+	opacity: 0.2;
+	margin-left: 25%;
+	padding-top: 20%;
+}
+
+.principal-logo {
+	position: absolute;
+	z-index: 1;
+}
+.contact1 {
+	text-align: center;
+	color: #bca061;
+	font-family: 'Courgette';
+}
+
+.contact h3 {
+	text-align: left;
+	margin-bottom: 140px;
+	margin-left: 10%;
+	padding-left: 20%;
+	background: url(../../img/goals-icon.gif) no-repeat left;
+	color: #045304;
+	font-family: 'Tenor Sans';
+}
+
+form {
+	text-align: center;
+}
+
+form input {
+	border: 1px solid #045304;
+	border-radius: 4px;
+}
+
+.inp {
+	width: 70%;
+	height: 5vh;
+	max-width: 500px;
+	margin: 25px 0px;
+	opacity: 0.8;
+}
+
+textarea {
+	border-radius: 4px;
+	border: 1px solid#045304;
+}
+
+.lab {
+	color: hsl(120, 91%, 17%);
+	margin-right: 43%;
+	font-family: 'Tenor Sans';
+}
+
+form textarea {
+	width: 65%;
+	max-width: 500px;
+	margin: 60px 10px;
+	opacity: 0.8;
+}
+
+.btn {
+	width: 10%;
+	background-color: rgb(238, 229, 213);
+	color: #bca061;
+	border: none;
+	margin-right: 365px;
+	text-align: center;
+	margin-top: 0px;
+	cursor: pointer;
+	font-family: 'Tenor Sans';
+}
+.btn:hover {
+	background-color: #045304;
+}
+
+@media only screen and (min-width: 435px) {
+	.contact img {
+		width: 343px;
+		opacity: 0.2;
+		margin-left: 16%;
+		padding-top: 67%;
+	}
+	.contact1 {
+		font-size: 38px;
+	}
+	.container {
+		height: 780px;
+	}
+	.contact h3 {
+		margin-left: 10%;
+		padding-left: 75px;
+		margin-bottom: 29px;
+		font-size: 20px;
+	}
+	.btn {
+		padding: 10px;
+		margin-right: 261px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.contact img {
+		width: 439px;
+		opacity: 0.2;
+		margin-left: 35%;
+		padding-top: 35%;
+	}
+	.contact1 {
+		font-size: 50px;
+	}
+	.container {
+		height: 850px;
+	}
+
+	.btn {
+		margin-right: 410px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.contact img {
+		width: 490px;
+		opacity: 0.2;
+		margin-left: 80%;
+		padding-top: 35%;
+	}
+	.contact1 {
+		font-size: 50px;
+	}
+	.container {
+		height: 830px;
+	}
+	form input {
+		width: 70%;
+		height: 7.5vh;
+		max-width: 500px;
+		margin: 25px 0px;
+		opacity: 0.8;
+	}
+	.contact h3 {
+		margin-left: 10%;
+		padding-left: 75px;
+		margin-bottom: 29px;
+		font-size: 20px;
+	}
+	.btn {
+		padding: 5px;
+		margin-right: 370px;
+	}
+}
+
+/* End contact */
