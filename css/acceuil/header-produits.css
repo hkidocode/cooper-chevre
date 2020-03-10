@@ -42,6 +42,8 @@ body {
 #Bio {
 	width: 124px;
 	float: right;
+	transition: .9s ease-in-out;
+	transform: scale(0.8);
 }
 
 label {
@@ -71,10 +73,6 @@ label {
 	font-size: 13px;
 	color: #f7f4ee;
 	padding: 10px;
-}
-
-.menu li a:hover {
-	color: #045304;
 }
 
 #toggle:checked + .menu {
@@ -127,25 +125,17 @@ label {
 	grid-area: frais1;
 	align-self: end;
 	justify-self: center;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 .frais:hover {
-	-webkit-transform: scale(1.5);
+	transition: .3s ease-in-out;
 	transform: scale(1.5);
 }
 
 .Beurre {
 	grid-area: Beurre1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 .Beurre:hover {
-	-webkit-transform: scale(1.5);
+	transition: .3s ease-in-out;
 	transform: scale(1.5);
 }
 
@@ -164,39 +154,27 @@ label {
 	grid-area: fromage1;
 	justify-self: left;
 	align-self: center;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 .fromage:hover {
-	-webkit-transform: scale(1.5);
+	transition: .3s ease-in-out;
 	transform: scale(1.5);
 }
 
 .laitiaires {
 	grid-area: laitiaires1;
 	align-self: end;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 .laitiaires:hover {
-	-webkit-transform: scale(1.5);
+	transition: .3s ease-in-out;
 	transform: scale(1.5);
 }
 
 .yogurt {
 	grid-area: yogur1;
 	justify-self: center;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 .yogurt:hover {
-	-webkit-transform: scale(1.5);
+	transition: .3s ease-in-out;
 	transform: scale(1.5);
 }
 
