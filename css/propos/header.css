@@ -9,14 +9,13 @@ body {
 	background: url(../../img/imghead-1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: inherit;
 	height: 230px;
 	position: relative;
 }
 
 #green-opacité {
 	background: rgba(2, 87, 6, 0.3);
-	width: inherit;
+	width: 100%;
 	height: 100%;
 }
 .titre-logo {
@@ -70,7 +69,7 @@ label {
 	padding: 10px;
 }
 
-#toggle:checked + .menu {
+#checkbox:checked + .menu {
 	display: block;
 }
 
