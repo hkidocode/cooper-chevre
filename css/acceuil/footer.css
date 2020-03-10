@@ -79,17 +79,22 @@ p img {
 		justify-content: space-around;
 		height: 195px;
 	}
-	.socialmed {
+	.one .socialmed {
 		border-bottom: none;
-		margin-left: 30px;
-		padding-right: 50px;
+		margin-left: 45px;
+		margin-right: 28px;
+		padding-right: 8px;
+		padding-left: 32px;
 		margin-top: 60px;
+		width: 120px;
 	}
-	.two {
+	.footer .two {
 		text-align: left;
+		margin-left: 5px;
+		padding-left: 23px;
 	}
 	.socialmed img {
-		width: 36px;
+		width: 28px;
 	}
 	p {
 		color: #bca061;
